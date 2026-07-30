@@ -1,6 +1,6 @@
 from html import escape
 
-from security import create_profile_html
+from python_basics.security import create_profile_html
 
 # prompt to AI generate tests for this function, making sure to tests the security aspect as well (i.e HTML injection)
 def test_create_profile_html_renders_values() -> None:

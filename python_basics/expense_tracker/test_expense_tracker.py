@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from expense_tracker.expense_tracker import add_expense, load_expenses, save_expenses, Expense
+from python_basics.expense_tracker.expense_tracker import add_expense, load_expenses, save_expenses, Expense
 
 
 def test_add_and_load(tmp_path: Path):

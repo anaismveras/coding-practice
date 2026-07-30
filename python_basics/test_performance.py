@@ -2,7 +2,7 @@ import time
 
 import pytest
 
-from performance import has_duplicates
+from python_basics.performance import has_duplicates
 
 # used the prompt to the AI "test the performance of the has_duplicates function"
 
